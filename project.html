@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+*{
+background:url("b.jpg");
+background-repeat:no repeat;
+background-size:cover;
+
+}
+.heading  {
+  color:red;
+  background-color:black;
+  text-decoration:underline;
+  font-size:50px;
+  font-style:bold;
+  text-shadow:2px 2px;
+}
+.sub  {
+  color:aqua;
+  font-size:35px;
+  
+}
+</style>
+</head>
+<body>
+<center class="heading">FORM SUBMITION</center><br><br>
+<p class="sub">You must fill this form to know your seat</p>
+<form>
+<table>
+<tr>
+<th style="color:green">Name:</th>
+<td><input type="text" style="color:white" name="nam"></td></tr>
+<tr>
+<th style="color:green">Password:</th>
+<td><input type="password" style="color:white" name="pas"></td></tr>
+<tr>
+<th style="color:green">Confirm your password:</th>
+<td><input type="password" name="con" style="color:white"></td></tr>
+<tr>
+<th style="color:green">Select your course:</th>
+<td style="color:white"><input type="radio" name="course" value="cse" style="color:white">cse<br>
+<input type="radio" name="course" value="ece" style="color:white">ece<br>
+<input type="radio" name="course" value="eee" style="color:white">eee<br>
+<input type="radio" name="course" value="mech" style="color:white">mechanical<br></td></tr>
+<tr>
+<th style="color:green">Select your Institution:</th>
+<td><select name="selcountry" style="color:white">
+<option value="inst" style="color:white">Select Institution</option>
+<option value="iit" style="color:white">Indian Institute of Technology</option>
+<option value="nit" style="color:white">National Institute of technology</option>
+<option value="iiit" style="color:white">Indian Institute Of Information Technology</option>
+<option value="gft" style="color:white">Govt. Funded Universities</option></select></td></tr>
+<tr>
+<th style="color:green">Enter ur mobile number:</th>
+<td><input type="text" name="num" style="color:white"></td></tr>
+<tr>
+<th style="color:green">Enter your E-Mail Address:</th>
+<td style="color:white"><input type="text" name="mail" style="color:white">@gmail.com</td></tr>
+<tr>
+<th style="color:green">Select category</th>
+<td style="color:white"><input type="radio" name="cat" value="gen" style="color:white" checked>General/OC<br>
+<input type="radio" name="cat" value="obc" style="color:white">OBC<br>
+<input type="radio" name="cat" value="sc" style="color:white">SC<br>
+<input type="radio" name="cat" value="st" style="color:white">ST<br>
+</td></tr>
+<tr>
+<th style="color:green">JEE mains percentile</th>
+<td><input type="text" name="per" style="color:white"></td></tr>
+</table>
+<a href="pro-link1.html" style="color:white;font-size:35px;text-decoration:none"><center>submit</center></a>
+</form>
+</body>
+</html>
